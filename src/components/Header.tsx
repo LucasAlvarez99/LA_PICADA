@@ -102,6 +102,7 @@ export const Header: React.FC<HeaderProps> = ({ cartItemCount, onCartClick }) =>
               isActive('/admin') ? 'text-yellow-400' : ''
             }`}
           >
+            Admin
           </Link>
         </nav>
       </div>
