@@ -96,14 +96,7 @@ export const Header: React.FC<HeaderProps> = ({ cartItemCount, onCartClick }) =>
           >
             Promos
           </Link>
-          <Link 
-            to="/admin" 
-            className={`hover:text-yellow-400 transition-colors ${
-              isActive('/admin') ? 'text-yellow-400' : ''
-            }`}
-          >
-            Admin
-          </Link>
+          
         </nav>
       </div>
     </header>
