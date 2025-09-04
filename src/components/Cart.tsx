@@ -111,7 +111,7 @@ export const Cart: React.FC<CartProps> = ({
                 onClick={onCheckout}
                 className="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors font-medium"
               >
-                Proceder al Pago
+                Finalizar Compra
               </button>
               <button
                 onClick={onClearCart}
