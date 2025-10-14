@@ -292,14 +292,14 @@ Enviar comprobante lo más pronto posible y revisar que los datos sean correctos
                   />
                 </div>
               )}
-*/}
-      
+
+      */}
               <textarea
                 value={customerData.notes}
                 onChange={(e) => handleInputChange('notes', e.target.value)}
                 rows={3}
                 className="w-full px-3 py-2 border rounded-lg"
-                placeholder="Notas adicionales (ej: referencias del domicilio)"
+                placeholder="Notas adicionales (ej: nombre de la persona que retira)"
               />
             </div>
           )}
