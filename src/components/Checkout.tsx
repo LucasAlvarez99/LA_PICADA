@@ -104,6 +104,8 @@ Teléfono: ${customerData.phone}
 Mail: ${customerData.email}
 Domicilio: ${customerData.address || "-"}
 Altura: ${customerData.postalCode || "-"}
+Forma de entrega: ${customerData.deliveryMethod === "pickup" ? "Retiro en local" : "Domicilio"}
+${customerData.deliveryMethod === "delivery" ? `Dirección: ${customerData.address}, ${customerData.city}` : ""}
 
 PEDIDO:
 ${pedidoListado}
