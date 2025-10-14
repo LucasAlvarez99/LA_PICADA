@@ -52,7 +52,7 @@ function Promos() {
       />
       
       {/* Hero Section Promociones */}
-      <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white py-16">
+      <div className="bg-gradient-to-r from-orange-800 to-red-600 text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center mb-6">
             <div className="bg-white bg-opacity-20 p-4 rounded-full">

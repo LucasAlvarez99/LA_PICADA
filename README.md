@@ -67,3 +67,9 @@ export default tseslint.config([
   },
 ])
 ```
+# agregar envio
+
+linea 106 checkout
+
+Forma de entrega: ${customerData.deliveryMethod === "pickup" ? "Retiro en local" : "Domicilio"}
+${customerData.deliveryMethod === "delivery" ? `Dirección: ${customerData.address}, ${customerData.city}` : ""}
