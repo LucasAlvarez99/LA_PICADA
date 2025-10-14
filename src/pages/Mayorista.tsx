@@ -75,7 +75,11 @@ function Mayorista() {
               <h3 className="font-semibold mb-2">Grandes Volúmenes</h3>
               <p className="text-blue-100 text-sm">Hormas completas y pallets disponibles</p>
             </div>
-            
+            <div className="bg-white bg-opacity-10 p-6 rounded-lg">
+              <Truck size={32} className="mx-auto mb-3" />
+              <h3 className="font-semibold mb-2">Envío a domicilio</h3>
+              <p className="text-blue-100 text-sm">PROXIMAMENTE ENVIOS</p>
+            </div>
           </div>
         </div>
       </div>
