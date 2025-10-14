@@ -69,5 +69,7 @@ export default tseslint.config([
 ```
 # agregar envio
 
-linea 106 checkout
+linea 104 checkout
 
+105 - Domicilio: ${customerData.address || "-"}
+106 - Altura: ${customerData.postalCode || "-"}
