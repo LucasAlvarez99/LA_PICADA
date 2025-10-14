@@ -258,13 +258,12 @@ Enviar comprobante lo más pronto posible y revisar que los datos sean correctos
                       <p className="text-sm text-gray-600">Entrega en 24-48 horas</p>
                     </div>
                     <div className="text-right">
-                      <p className="font-bold text-gray-800">A COTIZAR</p>
+                      <p className="font-bold text-gray-800">PROXIMAMENTE</p>
                     </div>
                   </div>
                 </div>
               </div>
-
-              {customerData.deliveryMethod === 'delivery' && (
+{/*        {customerData.deliveryMethod === 'delivery' && (
                 <div className="space-y-4 bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-medium text-gray-800 flex items-center">
                     <MapPin size={16} className="mr-2" />
@@ -293,7 +292,8 @@ Enviar comprobante lo más pronto posible y revisar que los datos sean correctos
                   />
                 </div>
               )}
-
+*/}
+      
               <textarea
                 value={customerData.notes}
                 onChange={(e) => handleInputChange('notes', e.target.value)}
