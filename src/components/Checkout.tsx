@@ -109,6 +109,8 @@ ${customerData.deliveryMethod === "delivery" ? `Dirección: ${customerData.addre
 PEDIDO:
 ${pedidoListado}
 
+Direccion del Local: Coronel Martiniano Chilavert 6345, C1439 Cdad. Autónoma de Buenos Aires
+
 Datos de transferencia:
 Nombre: Jhon Doe
 Alias: Jhon.Doe.mp
@@ -234,7 +236,7 @@ Enviar comprobante lo más pronto posible y revisar que los datos sean correctos
                     <Home size={24} />
                     <div className="flex-1">
                       <h4 className="font-medium">Retiro en Local</h4>
-                      <p className="text-sm text-gray-600">Av. Corrientes 1234, CABA</p>
+                      <p className="text-sm text-gray-600">Coronel Martiniano Chilavert 6345, C1439 Cdad. Autónoma de Buenos Aires</p>
                       <p className="text-xs text-green-600 font-medium">Listo en 2-4 horas</p>
                     </div>
                     <div className="text-right">
