@@ -32,9 +32,11 @@ export const ProductForm: React.FC<ProductFormProps> = ({
 
   const categories = [
     { value: 'jamones', label: 'Jamones' },
+    { value: 'crudos', label: 'Crudos' },
     //{ value: 'tacho', label: 'Tacho' }, agregar si es necesario
     { value: 'embutidos', label: 'Embutidos' },
-    { value: 'quesos', label: 'Quesos' },
+    { value: 'quesosduros', label: 'Quesos Duros' },
+    { value: 'quesosblandos', label: 'Quesos Blados' },
     { value: 'otros', label: 'Otros' },
     { value: 'mayorista', label: 'Mayorista' },
     { value: 'promo', label: 'Promociones' }
