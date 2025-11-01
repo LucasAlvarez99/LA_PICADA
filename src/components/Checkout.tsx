@@ -115,7 +115,7 @@ Alias: Jhon.Doe.mp
 
 Enviar comprobante lo más pronto posible y revisar que los datos sean correctos, comenzaremos la preparación en cuanto recibamos el comprobante. Muchas gracias por confiar, saludos cordiales, LA PICADA`;
 
-      const telefonoTienda = "+5491125925851"; // <-- reemplazar por el nro de WhatsApp real con código país sin "+"
+      const telefonoTienda = "+5491158683127"; // <-- reemplazar por el nro de WhatsApp real con código país sin "+"
       const url = `https://wa.me/${telefonoTienda}?text=${encodeURIComponent(mensaje)}`;
       window.open(url, "_blank");
 

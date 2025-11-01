@@ -9,7 +9,7 @@ function Footer() {
         <div className="space-y-3 mb-8 md:mb-0">
           <div className="flex items-center gap-2">
             <Phone className="w-5 h-5 text-red-500" />
-            <span>+54 9 11 2345-6789</span>
+            <span>+54 9 11 5868-3127</span>
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-5 h-5 text-red-500" />
@@ -17,7 +17,7 @@ function Footer() {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-5 h-5 text-red-500" />
-            <span>Av. Siempre Viva 123, Buenos Aires</span>
+            <span>Coronel Martiniano Chilavert 6345, C1439 Cdad. Autónoma de Buenos Aires</span>
           </div>
           <div className="flex items-center gap-2">
             <Instagram className="w-5 h-5 text-red-500" />
