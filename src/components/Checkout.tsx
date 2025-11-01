@@ -112,8 +112,8 @@ ${pedidoListado}
 Direccion del Local: Coronel Martiniano Chilavert 6345, C1439 Cdad. Autónoma de Buenos Aires
 
 Datos de transferencia:
-Nombre: Jhon Doe
-Alias: Jhon.Doe.mp
+Nombre: Ramon Angel Alvarez
+Alias: lapicadavillalugano
 
 Enviar comprobante lo más pronto posible y revisar que los datos sean correctos, comenzaremos la preparación en cuanto recibamos el comprobante. Muchas gracias por confiar, saludos cordiales, LA PICADA`;
 
